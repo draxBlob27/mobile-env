@@ -1,3 +1,5 @@
+![alt text](arako_proj.excalidraw.png)
+
 # Mobile UI Agent RL Environment
 
 A reinforcement learning environment simulating a mobile app UI where an agent
@@ -5,7 +7,7 @@ completes tasks by producing structured action sequences.
 
 ## Setup
 
-```bash
+```bash,
 pip install -e .
 pytest tests/ -v          # 34 tests
 python3 run_eval.py        # eval results
