@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mobile_ui_env"
+version = "2026.0.0"
+requires-python = ">=3.8"
+dependencies = ["verifiers",
+    "datasets",
+    "pytest"]
+description = "Small RL-style environment"
+readme = "README.md"
+authors = [
+    {name = "Sanil Parmar", email = "123109054@nitkkr.ac.in"}
+]
+
+maintainers = [
+    {name = "Sanil Parmar", email = "123109054@nitkkr.ac.in"}
+]
+license = "MIT"
